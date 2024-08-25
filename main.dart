@@ -7,4 +7,5 @@ void main() {
   var f = !e || (b && !e || !a);
   var g = (f || b) && !e || !d;
   print(g);
+  print(a);
 }
